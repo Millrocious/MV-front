@@ -1,0 +1,178 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.T1 tr td {
+    border: 1px solid purple;
+ }
+
+ .T2 tr td {
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+ }
+
+ .T3 tr td {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+ }
+
+ .T4 tr td {
+    border: 1px solid darkcyan;
+    margin: 0;
+    padding: 10px;
+ }
+
+ .T5 tr {
+    border-collapse: separate;
+    border: 2px solid palevioletred;
+    margin: 0;
+    padding: 10px;
+    
+ }
+
+ .T5 td[bgcolor] {
+    text-align: center;
+ }
+
+ .T7 tr td{
+     border: 1px solid darkblue;
+     empty-cells: show;
+ }
+
+
+ .maint1 > td{
+    border: 2px solid rgb(7, 170, 170);
+    padding: 0;
+    margin: 0;
+    border-spacing: 0px;
+ }
+
+ .maint{
+    border: 2px solid rgb(7, 170, 170);
+    padding: 0;
+    margin: 0;
+    border-spacing: 0px;
+ }
+
+ .t81 tr td{
+    border: 2px solid palevioletred;
+    padding: 0;
+    margin: 0;
+ }
+
+ .t82 tr td{
+    border: 2px solid darkviolet;
+    padding: 0;
+    margin: 0;
+ }
+
+ td:empty:after{
+    content: "\00a0";
+  }
+
+
+#CyanC {
+    border: 1px solid cyan;
+}
+
+#GreenC {
+    border: 1px solid green;
+}
+
+#BlueC {
+    color: blue;
+}
+
+#PinkC {
+    color: rgb(194, 103, 189);
+}
+
+
+table.T1 {
+    border: 6px solid purple;
+    width: 40%;
+    height: 200px;
+}
+
+table.T2 {
+    margin-top: 50px;
+    width: 40%;
+    border: 1px solid green;
+    border-spacing: 20px;
+}
+
+table.T3 {
+    margin-top: 50px;
+    width: 70%;
+    border: 1px solid red;
+    border-spacing: 30px;
+}
+
+table.T4 {
+    margin-top: 50px;
+    width: 40%;
+    border: 2px solid darkcyan;
+    border-spacing: 0px;
+}
+
+table.T5 {
+    width: 40%;
+    margin-top: 50px;
+    border-color: palevioletred;
+}
+
+table.T51 {
+    width: 100%;
+    border-color: palevioletred;
+}
+
+table.T7 {
+    width: 40%;
+    margin-top: 50px;
+    border: 2px solid darkblue;
+    border-spacing: 0;
+}
+
+table.T8 {
+    margin-top: 50px;
+    border: 2px solid rgb(7, 170, 170);
+}
+
+table.t81 {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+table.t82 {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.T1 td:first-child {
+    width: 150px;
+ }
+
+tr.second {
+    height: 150px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+.T6 caption {
+    caption-side: top;
+}
