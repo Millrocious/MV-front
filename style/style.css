@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@1,700&family=Roboto&display=swap');
+/* #e97878  #f1aa9b */
+a {
+  padding-top: 13px;
+  padding-bottom: 0;
+  text-decoration: none;
+  color: #393b44;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2em;
+  font-weight: 800;
+  box-shadow: 0px 8px #8d93ab;
+}
+
+.content h1 {
+  font-family: 'Balsamiq Sans', cursive;
+  position: absolute;
+  font-size: 5em;
+  margin-top: 0;
+}
+
+.content h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #f0c38e;
+}
+
+.content h1:nth-child(2) {
+  color: #f0c38e;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,100% {
+    clip-path: polygon(0 46%, 13% 43%, 26% 47%, 41% 55%, 56% 63%, 66% 66%, 78% 66%, 89% 65%, 100% 58%, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0 63%, 8% 68%, 17% 69%, 29% 68%, 40% 64%, 57% 54%, 71% 45%, 88% 41%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+
+.main, .main1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.content {
+  padding-top: 0;
+  width: 900px;
+  height: 120px;
+  background-color: #48426d;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 0px 8px #312c51;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 700px;
+  height: 70px;
+  background-color: #f1f3f8;
+  border-radius: 10px;
+  transition: ease-out 0.5s;
+}
+
+.btn:hover {
+  transition: ease-out 0.5s;
+  background-color: #d6e0f0;
+  box-shadow: 0px 12px #8d93ab;
+}
