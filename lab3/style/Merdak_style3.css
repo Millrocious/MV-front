@@ -19,6 +19,7 @@ div.text1, div.text2{
     display: inline-block;
     position: inherit;
     overflow: scroll;
+    overflow: auto;
     background-image: url(../img/Merdak_bg_menu.gif);
     height: 120%;
     padding: 10px;
