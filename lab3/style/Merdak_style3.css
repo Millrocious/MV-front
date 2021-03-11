@@ -21,6 +21,7 @@ div.text1, div.text2{
     overflow: scroll;
     overflow: auto;
     background-image: url(../img/Merdak_bg_menu.gif);
+	overflow: auto;
     height: 120%;
     padding: 10px;
     text-indent: 15px;
