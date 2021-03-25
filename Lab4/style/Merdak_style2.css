@@ -1,0 +1,52 @@
+.left, .right {
+    width: 400px;
+    height: 500px;
+}
+
+#Sun {
+    float: left;
+    height: 350px;
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#Yup {
+    float: right;
+    margin-top: 25px;
+    width: 350px;
+    height: 350px;
+}
+#Earth {
+    float: none;
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 400px;
+}
+
+div {
+    width: 400px;
+    height: 500px;
+}
+
+
+.Block1 {
+    float: left;
+}
+.Block2 {
+    float: right;
+}
+.Block3 {
+    float: none;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Block2 p {
+    float: right;
+}

@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+div{
+    margin: auto;
+}
+
+div.TopDiv, div.BottomDiv{
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(255, 249, 162);
+    border: solid 2px black;
+}
+.Middle{
+    width: 1500px;
+    height: 1000px;
+    border: solid 2px black;
+    overflow:hidden
+}
+
+.Left{
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(200, 255, 168);
+    position:absolute;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.Right{
+    width: 1000px;
+    height: 70%;
+    left: 702px;
+    background-color: rgb(188, 209, 255);
+    position:absolute;
+}
+
+.TopMiddle{
+    color: white;
+    width: 1200px;
+    height: 200px;
+    top: 0px;
+    left: -200px;
+    background-color: rgb(200, 255, 168);
+    position:absolute;
+}
+
+.Middle1{
+    width: 1200px;
+    height: 800px;
+    left: -200px;
+    top: 200px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.TopText{
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.BottomText{
+    color: black;
+    text-shadow: none
+}

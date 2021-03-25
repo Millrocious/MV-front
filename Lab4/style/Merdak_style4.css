@@ -1,0 +1,33 @@
+body{   
+  background: url(../img/Merdak_background.jpg) no-repeat center center fixed; 
+}
+
+.Img1{
+  width: 670px;
+  height: 670px;
+  z-index: 2;
+   position: absolute;
+}
+
+.Img2{
+  z-index: 3;
+  top: 600px;
+  position: absolute;
+}
+
+.Img3{
+  z-index: 1;
+  top: 50px;
+  left: 720px;
+  position: absolute;
+}
+
+.Img4{
+  top: 800px;
+  left: 900px;
+  z-index: 4;
+  position: absolute;
+}
+
+
+
