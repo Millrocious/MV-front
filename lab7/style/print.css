@@ -1,0 +1,35 @@
+@media print {
+	.con2{
+		flex-direction: column;
+	}
+
+	div.LeftMain{
+		width: 900px;
+		height: 1050px;
+		padding: 10px;
+		background-color: rgb(200, 255, 168);
+	}
+
+	div.RightMain{
+		width: 1000px;
+		height: 2400px;
+	}
+
+	.BottomRight{
+		flex-direction: column;
+	}
+
+	.TopRight{
+		width: 900px;
+		height: 150px;
+	}
+
+	.TopRight > p{
+		margin-top: 10px;
+	}
+
+	.BottomRight div{
+		width: 900px;
+		height: 1000px;
+	}
+  }
