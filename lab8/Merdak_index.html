@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+	<title>Форми</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/Merdak_style.css">
+</head>
+<body>
+
+
+	<div class="contc">
+		<div class="wrc">
+			<form class="contact-form validate-form">
+				<span class="Title">
+					Вебформа опитування
+				</span>
+					<div class="txt">
+						<p class="text">Вебформа опитування. Заповніть форму для аналізу наших студентів</p>
+					</div>
+				<br>
+
+				<label class="lab_in" for="first-name">Прізвище</label>
+				<div class="Wrap validate-input">
+					<input class="input" type="text" name="last-name" placeholder="Ваше прізвище">
+				</div>
+
+				<label class="lab_in" for="first-name">Ім'я</label>
+				<div class="Wrap validate-input">
+					<input id="first-name" class="input" type="text" name="first-name" placeholder="Ваше ім'я" required>
+				</div>
+
+				<label class="lab_in" for="email">Електронна пошта</label>
+				<div class="Wrap validate-input">
+					<input id="email" class="input" type="text" name="email" placeholder="example@email.com" required>
+				</div>
+				
+				<label class="lab_in">Пароль:</label>
+				<div class="Wrap validate-input">
+					<input class = "input" type="password" id="pass" name="password" placeholder="Введіть пароль"
+						   minlength="8" required>
+				</div>
+
+				<label class="lab_in" for="phone">Номер телефону</label>
+				<div class="Wrap">
+					<input id="phone" class="input" type="text" name="phone" placeholder="+380 000 000 000">
+				</div>
+
+				<label class="lab_in" for="age">Ваш вік</label>
+				<center>
+				<div class="Wrp">
+					<div class="Wrap1">
+						<input id="age" class="input" type="number" name="ag" placeholder="Вік" min="16" max="24">
+					</div>
+				</div>
+				</center>
+
+				<fieldset>
+					<center>
+					<label class="lab_in" >Стать</label>
+					<label>
+					  <input type="radio" class="opt-in radio" name="example" />
+					  Чоловік
+					</label>
+					<label>
+					  <input type="radio" class="opt-in radio" name="example" />
+					  - Жінка
+					</label>
+					</center>
+				  <br><br>
+				  <div class="select">
+					<select>
+					  <option selected disabled>Виберіть свою спеціальність</option>
+					  <option>ІПЗ-11</option>
+					  <option>СОМ-11</option>
+					  <option>КН-11</option>
+					</select>
+				</div>
+				  	<fieldset>
+						<label class="lab_in" >На якій формі навчання ви знаходитесь?</label>
+						<ul class="ChD">
+							<li><input type="checkbox" id="checkbox1"><label for="checkbox1">Державна</label></li>
+							<li><input type="checkbox" id="checkbox2"><label for="checkbox2">Контрактна</label></li>
+						  </ul>
+					</fieldset>
+					<fieldset>
+						<div class="container">
+							<label class="lab_in">Які технології ви вивчали під час навчального курсу?</label>
+							<ul class="ChD">
+							  <li><input type="checkbox" id="ch1"><label for="ch1">C++</label></li>
+							  <li><input type="checkbox" id="ch2"><label for="ch2">Html</label></li>
+							  <li><input type="checkbox" id="ch3"><label for="ch3">JavaScript</label></li>
+							  <li><input type="checkbox" id="ch4"><label for="ch4">Python</label></li>
+							  <li><input type="checkbox" id="ch5"><label for="ch5">PHP</label></li>
+							  <li><input type="checkbox" id="ch6"><label for="ch6">Java</label></li>
+							  <li><input type="checkbox" id="ch7"><label for="ch7">C#</label></li>
+							  <li><input type="checkbox" id="ch8"><label for="ch8">Kotlin</label></li>
+							  <li><input type="checkbox" id="ch9"><label for="ch9">CSS</label></li>
+							</ul>
+						</div>
+					</fieldset>
+			</fieldset>
+
+			<div class="bt1">
+				<label class="lab_in" for="message">Відгук</label>
+				<div class="Wrap validate-input">
+					<textarea id="message" class="input" name="message" placeholder="Ваш відгук"></textarea>
+					<span class="focus-input"></span>
+				</div>
+			</div>
+
+				<div class="divButton">
+					<button type="button" class="Button" onclick="alert('Вашу відповідь відправлено')">
+						<span>
+							Відправити
+						</span>
+					</button>
+				</div>
+				<br><br><br>
+				<div class="divButton">
+					<button class="Button">
+						<input type="reset" value="Скасувати">
+					</button>
+				</div>	
+				<div class="lin">
+				<p class="Link">Доступно у <a class="Link" href="https://www.mozilla.org/en-US/firefox/">Mozilla
+					Firefox</a>, <a class="Link" href="https://www.google.com/chrome/index.html">Google Chrome</a>.</p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
