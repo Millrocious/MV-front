@@ -1,0 +1,362 @@
+@font-face {
+    font-family: ValeraRound-Regular;
+    src: local("ValeraRound-Regular"),
+         url(../font/varela-round/VarelaRound-Regular.ttf);
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    background-color: #eef0f2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Merdak_bg.png);
+
+}
+
+.sec1 {
+    background-color: #eef0f2;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Merdak_bg.png);
+    background-repeat: no-repeat;
+}
+
+.secnav {
+    display: flex;
+    margin-top: 57px;
+    line-height: 10px;
+    width: 1200px;
+}
+
+.secnavbar {
+    margin-left: 36px;
+}
+
+.secnavbar2 {
+    margin-left: 33px;
+}
+
+.secnavbar1 {
+    margin-top: 19px;
+    margin-left: 245px;
+    margin-right: 225px;
+}
+
+center {
+    width: 100%;
+}
+
+p {
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 16px;
+}
+
+.Gbutt {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #267df4;
+}
+
+.Gbutt1 {
+    display: flex;
+    margin-top: 100px;
+    width: 205px;
+    height: 53px;
+    border: 1px solid #d9dcde; 
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    
+    background-color: none;
+}
+
+.Gbutt2 {
+    display: flex;
+    margin-top: 60px;
+    width: 500px;
+    height: 49px;
+    border: 1px solid #d9dcde; 
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    
+    background-color: none;
+}
+
+.Gbutt3 {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #131315;
+}
+
+.Gbutt2 a {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    float: rigth;
+    color: white;
+    text-decoration: none;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #6fc754;
+}
+
+.Gbutt3 a {
+    float: rigth;
+    color: white;
+    text-decoration: none;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.pln p {
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.plnb {
+    margin-left: 112px;
+}
+
+.sec11 h1 {
+    padding-top: 155px;
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 62px;
+}
+
+.sec11 {
+    text-align: center;
+    width: 770px;
+}
+
+.app {
+    padding-top: 10px;
+}
+
+.ff {
+    margin-left: 17px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.fff {
+    margin-left: 23px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.fff1 {
+    text-align: left;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.smm {
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.plicon {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.pltext a {
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.psec1 {
+    font-size: 17px;
+    line-height: 28px;
+    color: #8c8f94;
+}
+
+.ff1 a {
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sec2 {
+    background-color: #f5f5f8;
+    width: 100%;
+    height: 1750px;
+}
+
+.sec22 {
+    text-align: center;
+}
+
+.sec22 h1 {
+    padding-top: 200px;
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.sec222 {
+    width: 55px;
+    height: 3px;
+    background-color: #267df4;
+    border-radius: 1px;
+}
+
+.sec23 {
+    text-align: center;
+}
+
+.bgg {
+    font-size: 22px;
+}
+
+.sec23 h2 {
+    padding-top: 45px;
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    font-weight: 900;
+    color: #a6a8ad;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+.sec2444 {
+    top: 20px;
+}
+
+.sec25, .sec26, .sec27 {
+    text-align: center;
+}
+
+.sec25 h2 {
+    padding-top: 65px;
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    font-weight: 900;
+    color: #a6a8ad;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.sec27 h2 {
+    padding-top: 65px;
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    color: #a6a8ad;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.sec26 h1 {
+    margin-top: 0px;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    color: #26272d;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.sec24 {
+    display: flex;
+}
+
+.sec244{
+    width: 440px;
+    margin-top: 100px;
+}
+
+.custom-search {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+  }
+  .custom-search-input {
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f8;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+    font-family: ValeraRound-Regular;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .custom-search-botton {
+    font-family: ValeraRound-Regular;
+    font-size: 14px;
+    position: absolute;
+    width: 160px;
+    right: 5px; 
+    top: 5px;
+    bottom: 5px;
+    border: 0;
+    background: #6fc754;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+  }
+  
+  .arr {
+      margin-left: 10px;
+  }
